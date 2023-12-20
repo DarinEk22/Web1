@@ -1,15 +1,35 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: playfair display;
     margin: 0;
     padding: 0;
-    background-color: white; /* Change background color to navy blue */
-    color: black; /* Set text color to black */
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: midnightblue;
+    position: relative;
     text-align: center;
-    padding: 10px;
+}
+
+.header-overlay {
+    position: relative;
+}
+
+.header-overlay img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f3f3; 
+    font-size: 6em; 
+    font-family: playfair display; 
 }
 
 .flex-container {
@@ -24,22 +44,14 @@ header {
     flex: 1;
     padding: 20px;
     margin: 10px;
-    border: 2px solid white; /* Change border color to navy blue */
-    background-color: white;
-    text-align: center; 
-}
-
-.flex-item img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px auto; /* Adjust spacing around the image */
-    border: 2px solid white; /* Change image border color to navy blue */
+    border: 2px solid rgb(249, 249, 250);
+    background-color: #fff;
+    text-align: center;
 }
 
 footer {
-    background-color: #f8eeee;
-    color: #0e0e0e;
+    background-color: #333435;
+    color: #fff;
     text-align: center;
     padding: 10px;
 }
